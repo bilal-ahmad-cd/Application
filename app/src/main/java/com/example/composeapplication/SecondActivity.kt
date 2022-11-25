@@ -47,7 +47,7 @@ fun Greeting2(name: String) {
     Text(text = "Message received: $name", color = Color.White)
 }
 
-@Preview(showBackground = true)
+@Preview(showBackground = false)
 @Composable
 fun DefaultPreview2() {
     ComposeApplicationTheme {

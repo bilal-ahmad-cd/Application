@@ -13,15 +13,6 @@
         android:theme="@style/Theme.ComposeApplication"
         tools:targetApi="31" >
         <activity
-            android:name=".SecondActivity"
-            android:exported="false"
-            android:label="@string/title_activity_second"
-            android:theme="@style/Theme.ComposeApplication" >
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
             android:name=".SecondScreen"
             android:exported="false" >
             <meta-data
