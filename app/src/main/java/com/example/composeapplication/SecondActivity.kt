@@ -44,6 +44,7 @@ fun Context.findActivity(): Activity? = when (this) {
 
 @Composable
 fun Greeting2(name: String) {
+
     Text(text = "Message received: $name", color = Color.White)
 }
 
