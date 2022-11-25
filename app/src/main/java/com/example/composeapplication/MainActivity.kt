@@ -15,6 +15,7 @@ import androidx.core.content.ContextCompat.startActivity
 import com.example.composeapplication.ui.theme.ComposeApplicationTheme
 
 class MainActivity : ComponentActivity() {
+
     var msg: String = ""
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

@@ -29,7 +29,7 @@ class SecondActivity : ComponentActivity() {
                 ) {
                     val bundle: Bundle? = intent.extras
                     val message = bundle!!.getString("value")
-//                    Greeting2(message!!)
+                    Greeting2(message!!)
                 }
             }
         }
@@ -51,6 +51,7 @@ fun Greeting2(name: String) {
 @Composable
 fun DefaultPreview2() {
     ComposeApplicationTheme {
+
         val context = LocalContext.current
         val activity = context.findActivity()
         val intent = activity?.intent
